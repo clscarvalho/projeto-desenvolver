@@ -1,11 +1,24 @@
+body {
+ background-color: aliceblue;
+ text-align: center;
+}
+
 h1 {
  color: blueviolet;
- background-color: aliceblue;
+ padding: 5px;
 }
 
 .projetos {
  color: white;
  background-color: rgb(114, 39, 255);
+ padding: 20px;
+}
+
+article {
+ border: 1px solid white;
+ border-radius: 5px;
+ margin: 20px;
+ padding: 10px;
 }
 
 img {
