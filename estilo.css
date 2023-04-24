@@ -1,0 +1,14 @@
+h1 {
+ color: blueviolet;
+ background-color: aliceblue;
+}
+
+.projetos {
+ color: white;
+ background-color: rgb(114, 39, 255);
+}
+
+img {
+ margin: 15px;
+ display: block;
+}
