@@ -1,6 +1,8 @@
 body {
  background-color: aliceblue;
- text-align: center;
+ display: flex;
+ flex-direction: column;
+ text-align: center; 
 }
 
 h1 {
@@ -8,20 +10,50 @@ h1 {
  padding: 5px;
 }
 
+.titulo {
+ display: inline-flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: center;
+}
+
 .projetos {
  color: white;
  background-color: rgb(114, 39, 255);
  padding: 20px;
+ border-radius: 5px;
 }
 
 article {
  border: 1px solid white;
  border-radius: 5px;
- margin: 20px;
+ margin: 30px 100px;
  padding: 10px;
+ box-sizing: border-box;
 }
 
-img {
- margin: 15px;
- display: block;
+.artigos {
+ justify-content: center;
+ display: inline-flex;
+ flex-direction: row;
+}
+
+.passarinho {
+ margin: 50px;
+ border-radius: 30%;
+ width: 50px;
+ animation: pulsar 1s infinite alternate;
+}
+
+footer {
+ padding: 5px;
+}
+
+.github {
+ width: 24px;
+}
+
+@keyframes pulsar {
+ 0% {transform: scale(.8);}
+ 100% {transform: scale(1.2);}
 }
