@@ -15,6 +15,7 @@ h1 {
  flex-direction: row;
  align-items: center;
  justify-content: center;
+ margin: 20px;
 }
 
 .projetos {
@@ -27,9 +28,10 @@ h1 {
 article {
  border: 1px solid white;
  border-radius: 5px;
- margin: 30px 100px;
+ margin: 20px;
  padding: 10px;
  box-sizing: border-box;
+ width: 40%;
 }
 
 .artigos {
@@ -39,9 +41,9 @@ article {
 }
 
 .passarinho {
- margin: 50px;
+ margin: 10px;
  border-radius: 30%;
- width: 50px;
+ width: 40px;
  animation: pulsar 1s infinite alternate;
 }
 

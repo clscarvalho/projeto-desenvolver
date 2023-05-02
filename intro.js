@@ -17,8 +17,8 @@ window.addEventListener('resize', () => {
 });
 
 function start() {
- intro.className = 'intro animation.intro';
- texto.className = 'texto animation.texto';
+ intro.className = 'intro animation_intro';
+ texto.className = 'texto animation_texto';
 }
 
 let canvas = document.getElementById('snow');
