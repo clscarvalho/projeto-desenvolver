@@ -3,22 +3,24 @@ let height = window.innerHeight;
 
 const intro = document.getElementsByClassName('intro')[0];
 const texto = document.getElementsByClassName('texto')[0];
+const p = document.getElementsByTagName('p')[0];
 
 intro.style.fontSize = width / 30 + 'px';
 texto.style.fontSize = width / 20 + 'px';
-texto.style.height = height + 'px';
+p.style.height = height + 'px';
 
 window.addEventListener('resize', () => {
  width = canvas.width = window.innerWidth;
  height = canvas.height = window.innerHeight;
  intro.style.fontSize = width / 30 + 'px';
- texto.style.fontSize = width / 20 + 'px';
- texto.style.height = height + 'px';
+ texto.style.fontSize = width / 25 + 'px';
+ p.style.height = height + 'px';
 });
 
 function start() {
- intro.className = 'intro animation_intro';
- texto.className = 'texto animation_texto';
+ intro.className = 'intro animation-intro';
+ texto.className = 'texto animation-texto';
+ sound.play();
 }
 
 let canvas = document.getElementById('snow');

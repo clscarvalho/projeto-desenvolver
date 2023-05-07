@@ -1,27 +1,38 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
- <head>
+
+<head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
   <meta name="author" content="Clara Loureiro">
   <tittle>Des(envolver) - Star Wars Intro</tittle>
   <link rel="stylesheet" href="estilointro.css">
- </head>
- <body>
-  <button onclick="start()">Start</button>
+</head>
+
+<body>
   <canvas id="snow"></canvas>
   <main>
-   <section class="intro">
-    <h4>A long time ago, in a galaxy far, far away...</h4>
-   </section>
-   <section class="texto">
-    <p>Star Wars Episode X</p>
-    <p>Clara and the Project</p>
-    <p><br>These are very difficult times!<br>
-     That's why Clara needs to find the lightsaber so she can get programming powers like no other person in the galaxy.
-     <br>And with that, she begins her quest across the galaxy.</p>
-   </section>
+    <button onclick="start()">Start</button>
+
+    <div class="intro">
+      <h4>A long time ago, in a galaxy far, far away...</h4>
+    </div>
+
+    <div class="texto">
+      <p>
+        <span class="titulo">
+        Star Wars Episode X<br><br>
+        Clara and the Project
+        </span><br><br>
+        These are very difficult times!
+        That's why Clara needs to find the lightsaber so she can get
+        programming powers like no other person in the galaxy.
+        And with that, she begins her quest across the galaxy.</p>
+    </div>
+
   </main>
+  <audio src="https://raw.githubusercontent.com/glaucia86/sounds/master/starwars.mp3" id="sound"></audio>
   <script src="intro.js"></script>
- </body>
+</body>
+
 </html>
